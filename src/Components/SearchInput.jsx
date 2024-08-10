@@ -29,7 +29,7 @@ const SearchInput = () => {
                 onKeyUp={searchQueryHandler}
                 value={searchQuery}
                 autoFocus
-                className="grow outline-0 text-black/[0.87]"
+                className="grow outline-none focus:outline-none focus:shadow-none text-black/[0.87]"
             />
             <div className="flex items-center gap-3">
                 {searchQuery && (
